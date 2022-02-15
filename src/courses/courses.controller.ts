@@ -7,7 +7,7 @@ import {
   Patch,
   Post,
 } from '@nestjs/common';
-import { CoursesService } from 'src/courses.service';
+import { CoursesService } from 'src/courses/courses.service';
 
 @Controller('courses')
 export class CoursesController {
